@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vCard - Personal Portfolio</title>
+    <title>Syawal Saputra - Full Stack Developer Portfolio</title>
 
-    <!--
-    - favicon
-  -->
     <link
       rel="shortcut icon"
       href="./assets/images/logos.png"
       type="image/x-icon"
     />
 
-    <!--
-    - custom css link
-  -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
-    - google font link
-  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,15 +23,7 @@
   </head>
 
   <body>
-    <!--
-    - #MAIN
-  -->
-
     <main>
-      <!--
-      - #SIDEBAR
-    -->
-
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
@@ -53,13 +36,11 @@
 
           <div class="info-content">
             <h1 class="name" title="Syawal Saputra">Syawal Saputra</h1>
-
-            <p class="title">Pengembang Web</p>
+            <p class="title">Full Stack Developer</p>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
+            <span>Lihat Kontak</span>
             <ion-icon name="chevron-down"></ion-icon>
           </button>
         </div>
@@ -72,10 +53,8 @@
               <div class="icon-box">
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
                 <p class="contact-title">Email</p>
-
                 <a href="mailto:syawalaja0712@gmail.com" class="contact-link"
                   >syawalaja0712@gmail.com</a
                 >
@@ -86,11 +65,11 @@
               <div class="icon-box">
                 <ion-icon name="phone-portrait-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+12133522795" class="contact-link">085215067556</a>
+                <p class="contact-title">Telepon</p>
+                <a href="tel:+6285215067556" class="contact-link"
+                  >0852 1506 7556</a
+                >
               </div>
             </li>
 
@@ -98,11 +77,9 @@
               <div class="icon-box">
                 <ion-icon name="calendar-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time datetime="1982-06-23">Desember 07, 2002</time>
+                <p class="contact-title">Tanggal Lahir</p>
+                <time datetime="2002-12-07">07 Desember 2002</time>
               </div>
             </li>
 
@@ -110,10 +87,8 @@
               <div class="icon-box">
                 <ion-icon name="location-outline"></ion-icon>
               </div>
-
               <div class="contact-info">
-                <p class="contact-title">Location</p>
-
+                <p class="contact-title">Lokasi</p>
                 <address>Sorosutan, Umbulharjo, Kota Yogyakarta</address>
               </div>
             </li>
@@ -123,19 +98,32 @@
 
           <ul class="social-list">
             <li class="social-item">
-              <a href="#" class="social-link">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
-
             <li class="social-item">
-              <a href="#" class="social-link">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
-
             <li class="social-item">
-              <a href="#" class="social-link">
+              <a
+                href="#"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
@@ -143,92 +131,69 @@
         </div>
       </aside>
 
-      <!--
-      - #main-content
-    -->
-
       <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
-
         <nav class="navbar">
           <ul class="navbar-list">
             <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
+              <button class="navbar-link active" data-nav-link>Tentang</button>
             </li>
-
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Resume</button>
             </li>
-
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
+              <button class="navbar-link" data-nav-link>Portofolio</button>
             </li>
-
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Blog</button>
             </li>
-
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
+              <button class="navbar-link" data-nav-link>Kontak</button>
             </li>
           </ul>
         </nav>
 
-        <!--
-        - #ABOUT
-      -->
-
-        <article class="about active" data-page="about">
+        <article class="about active" data-page="tentang">
           <header>
-            <h2 class="h2 article-title">About me</h2>
+            <h2 class="h2 article-title">Tentang Saya</h2>
           </header>
 
           <section class="about-text">
             <p>
-              I am a web developer, designer, and system analyst who is
-              passionate about transforming complex problems into simple,
-              elegant, and intuitive designs.
+              Saya adalah seorang Full Stack Developer lulusan Sistem Informasi
+              yang bersemangat dalam membangun aplikasi web yang handal. Saya
+              memiliki keahlian dalam menciptakan antarmuka pengguna yang
+              intuitif serta mengelola arsitektur backend yang efisien. Sebagai
+              seorang profesional, saya bertanggung jawab, detail, dan siap
+              berkontribusi positif dalam lingkungan tim.
             </p>
 
             <p>
-              "Iam, Syawal Saputra, am a graduate of the Information Systems
-              study program at Ahmad Dahlan University who is full of enthusiasm
-              and ready to make a positive contribution in a professional
-              environment. With a technological background in Information
-              Systems, I have a deep understanding of programming, design, web
-              application system analysis and data processing. The practical
-              skills I have allow me to quickly adapt and thrive effectively in
-              the workplace."
+              "Saya, Syawal Saputra, S.Kom, adalah lulusan Universitas Ahmad
+              Dahlan tahun 2024. Saya memiliki pemahaman mendalam tentang
+              pemrograman web (HTML, CSS, JS, TypeScript) dan analisis sistem.
+              Saya siap menangani pemeliharaan website, pengembangan fitur Full
+              Stack, dan deployment aplikasi secara efisien."
             </p>
           </section>
 
-          <!--
-          - service
-        -->
-
           <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+            <h3 class="h3 service-title">Keahlian Saya</h3>
 
             <ul class="service-list">
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
+                    src="./assets/images/icon-dev.svg"
+                    alt="Maintenance icon"
                     width="40"
                   />
                 </div>
-
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
-
+                  <h4 class="h4 service-item-title">Pemeliharaan Website</h4>
                   <p class="service-item-text">
-                    "The design is expected to be modern, high quality, and
-                    professional, although I am still learning. I am committed
-                    to creating elegant and attractive results.
+                    Memastikan website berjalan lancar dengan melakukan
+                    pengecekan rutin dan pembaruan untuk menjaga performa serta
+                    keamanan.
                   </p>
                 </div>
               </li>
@@ -236,19 +201,17 @@
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
+                    src="./assets/images/icon-design.svg"
+                    alt="UI Dev icon"
                     width="40"
                   />
                 </div>
-
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-
+                  <h4 class="h4 service-item-title">Pengembangan Fitur UI</h4>
                   <p class="service-item-text">
-                    "Web development is expected to be modern, high-quality, and
-                    professional, although I am still learning. I am committed
-                    to creating elegant and functional results."
+                    Mengembangkan fitur antarmuka dan meningkatkan User
+                    Interface (UI) untuk memastikan pengalaman pengguna yang
+                    modern dan responsif.
                   </p>
                 </div>
               </li>
@@ -257,18 +220,15 @@
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/icon-app.png"
-                    alt="Analis Sistem"
+                    alt="Bug fix icon"
                     width="40"
                   />
                 </div>
-
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Analis Sistem</h4>
-
+                  <h4 class="h4 service-item-title">Perbaikan Bug</h4>
                   <p class="service-item-text">
-                    "Web development is expected to be modern, high-quality, and
-                    professional, although I am still learning. I am committed
-                    to creating elegant and functional results."
+                    Mengidentifikasi dan menyelesaikan bug secara efisien untuk
+                    meningkatkan kualitas kode dan fungsionalitas website.
                   </p>
                 </div>
               </li>
@@ -277,89 +237,69 @@
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/ux.png"
-                    alt="camera icon"
+                    alt="Graphic design icon"
                     width="40"
                   />
                 </div>
-
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Desain Grafis</h4>
-
                   <p class="service-item-text">
-                    "Graphic design is expected to be modern, high quality, and
-                    professional, although I am still learning. I am committed
-                    to creating aesthetic and attractive work."
+                    Mendukung pembuatan aset web dengan desain visual yang
+                    estetik dan menarik.
                   </p>
                 </div>
               </li>
             </ul>
           </section>
 
-          <!--
-          - testimonials modal
-        -->
-
           <div class="modal-container" data-modal-container>
             <div class="overlay" data-overlay></div>
-
             <section class="testimonials-modal">
               <button class="modal-close-btn" data-modal-close-btn>
                 <ion-icon name="close-outline"></ion-icon>
               </button>
-
               <div class="modal-img-wrapper">
                 <figure class="modal-avatar-box">
                   <img
                     src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
+                    alt="Testimonial Avatar"
                     width="80"
                     data-modal-img
                   />
                 </figure>
-
                 <img src="./assets/images/icon-quote.svg" alt="quote icon" />
               </div>
-
               <div class="modal-content">
                 <h4 class="h3 modal-title" data-modal-title>Syawal Saputra</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
+                <time datetime="2021-06-14">14 Juni 2021</time>
+                <div data-modal-text>
+                  <p>Teks testimoni ada di sini...</p>
+                </div>
               </div>
             </section>
           </div>
 
-          <!--
-          - clients
-        -->
-
           <section class="clients">
-            <h3 class="h3 clients-title">Project</h3>
-
+            <h3 class="h3 clients-title">Proyek & Klien</h3>
             <ul class="clients-list has-scrollbar">
               <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/logoscamp.png" alt="client logo" />
-                </a>
+                <a href="#"
+                  ><img src="./assets/images/logoscamp.png" alt="client logo"
+                /></a>
               </li>
-
               <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/omakugame.png" alt="client logo" />
-                </a>
+                <a href="#"
+                  ><img src="./assets/images/omakugame.png" alt="client logo"
+                /></a>
               </li>
-
               <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/wedana.png" alt="client logo" />
-                </a>
+                <a href="#"
+                  ><img src="./assets/images/wedana.png" alt="client logo"
+                /></a>
               </li>
             </ul>
           </section>
         </article>
-
-        <!--
-        - #RESUME
-      -->
 
         <article class="resume" data-page="resume">
           <header>
@@ -371,34 +311,26 @@
               <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
               </div>
-
-              <h3 class="h3">Education</h3>
+              <h3 class="h3">Pendidikan</h3>
             </div>
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Ahmad Dahlan University</h4>
-
+                <h4 class="h4 timeline-item-title">Universitas Ahmad Dahlan</h4>
                 <span>2020 — 2024</span>
-
-                <p class="timeline-text">Information Systems Study Program</p>
+                <p class="timeline-text">S1 Sistem Informasi (Lulus)</p>
               </li>
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Dicoding Indonesia</h4>
-
                 <span>2023</span>
-
                 <p class="timeline-text">
-                  Front-End and Back-End Web Developer
+                  Alur Belajar Pengembang Web Front-End dan Back-End.
                 </p>
               </li>
-
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">MA Muhammadiyah Sibatua</h4>
-
-                <span>2017-2020</span>
-
-                <p class="timeline-text">Sosial Science</p>
+                <span>2017 — 2020</span>
+                <p class="timeline-text">Ilmu Pengetahuan Sosial</p>
               </li>
             </ol>
           </section>
@@ -406,85 +338,61 @@
           <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+                <ion-icon name="briefcase-outline"></ion-icon>
               </div>
-
-              <h3 class="h3">Experience</h3>
+              <h3 class="h3">Pengalaman</h3>
             </div>
 
             <ol class="timeline-list">
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">
-                  UI/UX Designer Omaku Game
+                  DevOps Engineer - Graf Bimbel
                 </h4>
+                <span>2025 — Sekarang</span>
+                <p class="timeline-text">
+                  Bertanggung jawab atas deployment aplikasi di grafbimbel.com
+                  menggunakan Docker. Mengelola konfigurasi server, menangani
+                  troubleshooting jaringan, dan memastikan performa website
+                  tetap stabil dan aman.
+                </p>
+              </li>
 
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Web Developer - Madrasah DDI BBT
+                </h4>
+                <span>2024</span>
+                <p class="timeline-text">
+                  Membangun website profil sekolah yang modern dan dinamis
+                  menggunakan <strong>TypeScript</strong> dan
+                  <strong>Sanity.io</strong> sebagai Headless CMS. Fokus pada
+                  performa tinggi, manajemen konten yang fleksibel, serta
+                  integrasi UI yang responsif.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  UI/UX Designer & Frontend - Omaku Game
+                </h4>
                 <span>2023 — 2024</span>
-
                 <p class="timeline-text">
-                  Nemo enim ipsam voluptatem blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et qvuas molestias
-                  exceptur.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Sistem Analis</h4>
-
-                <span>2013 — 2015</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Web designer</h4>
-
-                <span>2010 — 2013</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  Berkolaborasi dengan tim untuk mendesain antarmuka yang ramah
+                  pengguna dan mengimplementasikan kode frontend untuk platform
+                  game. Memperbaiki bug dan menjaga konsistensi UI.
                 </p>
               </li>
             </ol>
           </section>
 
           <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
-
+            <h3 class="h3 skills-title">Keahlian</h3>
             <ul class="skills-list content-card">
               <li class="skills-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">Web design</h5>
-                  <data value="80">80%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Graphic design</h5>
-                  <data value="70">70%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Front End Developer</h5>
+                  <h5 class="h5">Full Stack (HTML, CSS, JS, PHP/Node)</h5>
                   <data value="90">90%</data>
                 </div>
-
                 <div class="skill-progress-bg">
                   <div class="skill-progress-fill" style="width: 90%"></div>
                 </div>
@@ -492,72 +400,79 @@
 
               <li class="skills-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">Problem Solving</h5>
-                  <data value="50">60%</data>
+                  <h5 class="h5">Web Design / UI</h5>
+                  <data value="80">80%</data>
                 </div>
-
                 <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%"></div>
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DevOps & Maintenance</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Kerjasama Tim & Komunikasi</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
                 </div>
               </li>
             </ul>
           </section>
         </article>
 
-        <!--
-        - #PORTFOLIO
-      -->
-
-        <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portofolio">
           <header>
-            <h2 class="h2 article-title">Portfolio</h2>
+            <h2 class="h2 article-title">Portofolio</h2>
           </header>
 
           <section class="projects">
             <ul class="filter-list">
               <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+                <button class="active" data-filter-btn>Semua</button>
               </li>
-
               <li class="filter-item">
                 <button data-filter-btn>Web design</button>
               </li>
-
               <li class="filter-item">
                 <button data-filter-btn>Applications</button>
               </li>
-
               <li class="filter-item">
-                <button data-filter-btn>Web development</button>
+                <button data-filter-btn>Web App</button>
               </li>
             </ul>
 
             <div class="filter-select-box">
               <button class="filter-select" data-select>
                 <div class="select-value" data-selecct-value>
-                  Select category
+                  Pilih Kategori
                 </div>
-
                 <div class="select-icon">
                   <ion-icon name="chevron-down"></ion-icon>
                 </div>
               </button>
-
               <ul class="select-list">
                 <li class="select-item">
-                  <button data-select-item>All</button>
+                  <button data-select-item>Semua</button>
                 </li>
-
                 <li class="select-item">
                   <button data-select-item>Web design</button>
                 </li>
-
                 <li class="select-item">
                   <button data-select-item>Applications</button>
                 </li>
-
                 <li class="select-item">
-                  <button data-select-item>Web development</button>
+                  <button data-select-item>Web App</button>
                 </li>
               </ul>
             </div>
@@ -566,231 +481,52 @@
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="web app"
               >
                 <a href="#">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-
                     <img
-                      src="./assets/images/project-1.jpg"
-                      alt="finance"
+                      src="./assets/images/project-1.png"
+                      alt="grafbimbel.com"
                       loading="lazy"
                     />
                   </figure>
-
-                  <h3 class="project-title">Finance</h3>
-
-                  <p class="project-category">Web development</p>
+                  <h3 class="project-title">grafbimbel.com</h3>
+                  <p class="project-category">Web App</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="web app"
               >
                 <a href="#">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
-
                     <img
                       src="./assets/images/project-2.png"
-                      alt="orizon"
+                      alt="madrasahddibbt"
                       loading="lazy"
                     />
                   </figure>
-
-                  <h3 class="project-title">Orizon</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="fundo"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Fundo</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-4.png"
-                      alt="brawlhalla"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Brawlhalla</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-5.png"
-                      alt="dsm."
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">DSM.</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-6.png"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">MetaSpark</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-7.png"
-                      alt="summary"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Summary</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-8.jpg"
-                      alt="task manager"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Task Manager</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-9.png"
-                      alt="arrival"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Arrival</h3>
-
-                  <p class="project-category">Web development</p>
+                  <h3 class="project-title">madrasahddibbt.netlify.app</h3>
+                  <p class="project-category">Web App</p>
                 </a>
               </li>
             </ul>
           </section>
         </article>
 
-        <!--
-        - #BLOG
-      -->
-
         <article class="blog" data-page="blog">
           <header>
             <h2 class="h2 article-title">Blog</h2>
           </header>
-
           <section class="blog-posts">
             <ul class="blog-posts-list">
               <li class="blog-post-item">
@@ -798,27 +534,23 @@
                   <figure class="blog-banner-box">
                     <img
                       src="./assets/images/blog-1.jpg"
-                      alt="Design conferences in 2022"
+                      alt="Web3 Trends"
                       loading="lazy"
                     />
                   </figure>
-
                   <div class="blog-content">
                     <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
+                      <p class="blog-category">Web3</p>
                       <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                      <time datetime="2025-01-10">10 Jan 2025</time>
                     </div>
-
                     <h3 class="h3 blog-item-title">
-                      Design conferences in 2022
+                      Tren Web3 2025: Masa Depan Internet Terdesentralisasi
                     </h3>
-
                     <p class="blog-text">
-                      Veritatis et quasi architecto beatae vitae dicta sunt,
-                      explicabo.
+                      Analisis mengenai pergeseran dari Web 2.0 ke Web3, fokus
+                      pada privasi data dan kepemilikan aset digital berbasis
+                      Blockchain.
                     </p>
                   </div>
                 </a>
@@ -829,27 +561,22 @@
                   <figure class="blog-banner-box">
                     <img
                       src="./assets/images/blog-2.jpg"
-                      alt="Best fonts every designer"
+                      alt="Smart Contracts"
                       loading="lazy"
                     />
                   </figure>
-
                   <div class="blog-content">
                     <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
+                      <p class="blog-category">Blockchain</p>
                       <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                      <time datetime="2024-12-15">15 Des 2024</time>
                     </div>
-
                     <h3 class="h3 blog-item-title">
-                      Best fonts every designer
+                      Logika Smart Contract: Otomatisasi Tanpa Perantara
                     </h3>
-
                     <p class="blog-text">
-                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
-                      est eligendi.
+                      Membahas bagaimana kode pemrograman dapat menggantikan
+                      peran notaris dan bank dalam transaksi digital yang aman.
                     </p>
                   </div>
                 </a>
@@ -860,25 +587,23 @@
                   <figure class="blog-banner-box">
                     <img
                       src="./assets/images/blog-3.jpg"
-                      alt="Design digest #80"
+                      alt="IT Career"
                       loading="lazy"
                     />
                   </figure>
-
                   <div class="blog-content">
                     <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
+                      <p class="blog-category">Karir</p>
                       <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                      <time datetime="2024-11-20">20 Nov 2024</time>
                     </div>
-
-                    <h3 class="h3 blog-item-title">Design digest #80</h3>
-
+                    <h3 class="h3 blog-item-title">
+                      Peluang Sarjana Komputer di Era Blockchain
+                    </h3>
                     <p class="blog-text">
-                      Excepteur sint occaecat cupidatat no proident, quis
-                      nostrum exercitationem ullam corporis suscipit.
+                      Opini Syawal Saputra, S.Kom mengenai skill set teknis yang
+                      wajib dikuasai untuk bersaing di industri teknologi
+                      global.
                     </p>
                   </div>
                 </a>
@@ -889,87 +614,23 @@
                   <figure class="blog-banner-box">
                     <img
                       src="./assets/images/blog-4.jpg"
-                      alt="UI interactions of the week"
+                      alt="DevOps Docker"
                       loading="lazy"
                     />
                   </figure>
-
                   <div class="blog-content">
                     <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
+                      <p class="blog-category">DevOps</p>
                       <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                      <time datetime="2024-10-05">05 Okt 2024</time>
                     </div>
-
                     <h3 class="h3 blog-item-title">
-                      UI interactions of the week
+                      Efisiensi Deployment Menggunakan Docker
                     </h3>
-
                     <p class="blog-text">
-                      Enim ad minim veniam, consectetur adipiscing elit, quis
-                      nostrud exercitation ullamco laboris nisi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-5.jpg"
-                      alt="The forgotten art of spacing"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      The forgotten art of spacing
-                    </h3>
-
-                    <p class="blog-text">
-                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
-                      et dolore magna aliqua.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-6.jpg"
-                      alt="Design digest #79"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                    <p class="blog-text">
-                      Optio cumque nihil impedit uo minus quod maxime placeat,
-                      velit esse cillum.
+                      Studi kasus implementasi containerization untuk menjaga
+                      konsistensi aplikasi dari tahap development hingga
+                      production.
                     </p>
                   </div>
                 </a>
@@ -978,19 +639,15 @@
           </section>
         </article>
 
-        <!--
-        - #CONTACT
-      -->
-
-        <article class="contact" data-page="contact">
+        <article class="contact" data-page="kontak">
           <header>
-            <h2 class="h2 article-title">Contact</h2>
+            <h2 class="h2 article-title">Kontak</h2>
           </header>
 
           <section class="mapbox" data-mapbox>
             <figure>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63245.98371954782!2d110.33364474043654!3d-7.803163418449381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Yogyakarta!5e0!3m2!1sca!2sid!4v1752980406456!5m2!1sca!2sid"
+                src="https://maps.google.com/maps?q=Sorosutan,%20Umbulharjo,%20Kota%20Yogyakarta&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="600"
                 height="450"
                 style="border: 0"
@@ -1002,40 +659,36 @@
           </section>
 
           <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
-
+            <h3 class="h3 form-title">Formulir Kontak</h3>
             <form action="#" class="form" data-form>
               <div class="input-wrapper">
                 <input
                   type="text"
                   name="fullname"
                   class="form-input"
-                  placeholder="Full name"
+                  placeholder="Nama Lengkap"
                   required
                   data-form-input
                 />
-
                 <input
                   type="email"
                   name="email"
                   class="form-input"
-                  placeholder="Email address"
+                  placeholder="Alamat Email"
                   required
                   data-form-input
                 />
               </div>
-
               <textarea
                 name="message"
                 class="form-input"
-                placeholder="Your Message"
+                placeholder="Pesan Anda"
                 required
                 data-form-input
               ></textarea>
-
               <button class="form-btn" type="submit" disabled data-form-btn>
                 <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
+                <span>Kirim Pesan</span>
               </button>
             </form>
           </section>
@@ -1043,14 +696,8 @@
       </div>
     </main>
 
-    <!--
-    - custom js link
-  -->
     <script src="./assets/js/script.js"></script>
 
-    <!--
-    - ionicon link
-  -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
