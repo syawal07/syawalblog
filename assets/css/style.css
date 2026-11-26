@@ -1933,3 +1933,8 @@ article{padding:38px}
 @media(max-width:1249px){main{padding-inline:18px}.main-content{width:100%}.navbar{border-radius:18px 18px 0 0}}
 @media(max-width:767px){main{padding-inline:12px;margin-top:16px}.sidebar,article{border-radius:18px;padding:22px}article{padding:24px 20px}.navbar{border-radius:16px 16px 0 0}.navbar-list{gap:5px}.navbar-link{padding-inline:9px;font-size:11px}.project-list{gap:16px}.project-img{height:190px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Skill labels are descriptive; avoid implying unverified percentage scores. */
+.skills-item .skill-progress-bg { display: none; }
+.skills-item .title-wrapper { align-items: flex-start; gap: 12px; }
+.skills-item .title-wrapper data { white-space: nowrap; }
