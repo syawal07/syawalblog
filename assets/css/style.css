@@ -2114,3 +2114,33 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{color:#142f4e}
 @media(prefers-reduced-motion:reduce){
   *,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Final light-theme correction for service / expertise cards */
+.service-item{
+  background:#ffffff !important;
+  border:1px solid #dce9f7 !important;
+  border-radius:18px !important;
+  box-shadow:0 10px 28px rgba(28,76,130,.07) !important;
+}
+.service-item::before{
+  content:none !important;
+  display:none !important;
+}
+.service-content-box{background:transparent !important}
+.service-item-title{color:#153554 !important}
+.service-item-text{color:#617891 !important}
+.service-icon-box{
+  background:linear-gradient(145deg,#eaf6ff,#edf3ff) !important;
+  border:1px solid #d7eaff;
+  border-radius:14px;
+  padding:10px;
+}
+.service-item:hover{
+  background:#fafdff !important;
+  border-color:#a9d9fa !important;
+  box-shadow:0 16px 32px rgba(22,112,190,.10) !important;
+}
+@media(max-width:767px){
+  .service-item{padding:20px !important;gap:14px !important}
+  .service-item-text{font-size:13px;line-height:1.75}
+}
